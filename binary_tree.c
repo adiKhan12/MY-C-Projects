@@ -50,5 +50,7 @@ int main() {
     insert_node(root, 4);
     insert_node(root, 6);
     insert_node(root, 8);
+
+    // lets traverse the tree using in-order traversal
     print_tree(root);
 }
