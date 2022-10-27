@@ -74,8 +74,8 @@ int main() {
     // lets search for a node in the tree
     node *found_node = search_node(root, 7);
     if (found_node != NULL) {
-        printf("Found node: %d", found_node->data);
+        printf("\nFound node: %d", found_node->data);
     } else {
-        printf("Node not found");
+        printf("\nNode not found");
     }
 }
